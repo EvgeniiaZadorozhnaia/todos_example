@@ -1,0 +1,40 @@
+:root {
+  --primary-color: rgba(175, 47, 47, 0.15);
+  --bg-color: rgb(221, 214, 214);
+  --secondary-color: rgb(204, 201, 201);
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.App {
+  background-color: var(--bg-color);
+  padding: 10px;
+  border-radius: 10px;
+  width: 800px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  height: 350px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 4px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}

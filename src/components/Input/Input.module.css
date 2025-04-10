@@ -1,0 +1,13 @@
+.input {
+  width: 100%;
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  border: 0px;
+  border-bottom: 2px solid var(--primary-color);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.input:focus {
+  outline: none;
+}

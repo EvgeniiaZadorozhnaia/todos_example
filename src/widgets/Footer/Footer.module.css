@@ -1,0 +1,33 @@
+.footer {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.links a.active {
+  border: 3px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.btn {
+  font-family: "Raleway", sans-serif;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
